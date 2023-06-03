@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document Object Model</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript">
+      // Seleksi elemen div dengan id 'app'
+      const app = document.getElementById('app');
+
+      // Buat elemen h1 baru
+      const header = document.createElement('h1');
+
+      // Buat text node untuk elemen h1 tadi
+      const headerContent = document.createTextNode('Belajar React bareng WPU 🚀');
+
+      // Append teks ke dalam h1
+      header.appendChild(headerContent);
+
+      // simpan elemen h1 di dalam div
+      app.appendChild(header);
+    </script>
+  </body>
+</html>
