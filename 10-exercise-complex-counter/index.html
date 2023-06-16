@@ -11,7 +11,10 @@
 	<body>
 		<div id="root"></div>
 		<script type="text/babel">
-			function HomePage() {
+			const container = document.getElementById('root');
+			const root = ReactDOM.createRoot(container);
+
+			const HomePage = () => {
 				const [count, setCount] = React.useState(0);
 				const done = count < 0 || count >= 10;
 
@@ -51,7 +54,7 @@
 						</Button>
 					</>
 				);
-			}
+			};
 
 			root.render(<HomePage />);
 		</script>
