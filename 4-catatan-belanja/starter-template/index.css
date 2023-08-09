@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Comfortaa:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2.4rem;
+  font-family: 'Comfortaa', sans-serif;
+  color: #283618;
+  background-color: #fefae0;
+}
+
+.app {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+}
+
+h1 {
+  font-family: 'Borel';
+  text-align: center;
+  background-color: #283618;
+  color: white;
+  font-size: 6rem;
+  padding: 4rem 0 1rem;
+}
+
+.add-form {
+  background-color: #dda15e;
+  padding: 2.8rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.add-form h3 {
+  margin-right: 2rem;
+  font-size: 2.4rem;
+}
+
+button,
+select,
+input {
+  background-color: #fefae0;
+  font-family: inherit;
+  border: none;
+  border-radius: 3rem;
+  padding: 1.2rem 3.2rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+button {
+  background-color: #283618;
+  color: #fefae0;
+  font-weight: bold;
+}
+
+.list {
+  background-image: url(img/paper-bg.jpg);
+  background-repeat: repeat-y;
+  background-attachment: local;
+  color: #fefae0;
+  padding: 2.3rem 0 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 3.2rem;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.list ul {
+  list-style: none;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list li {
+  color: #283618;
+  font-size: 4rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3.6rem;
+}
+
+.list input[type='checkbox'] {
+  height: 3rem;
+  width: 3rem;
+  accent-color: #283618;
+}
+
+.list li button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 2.6rem;
+  padding: 0;
+  width: 3rem;
+  height: 3rem;
+  background-color: red;
+}
+
+.actions {
+  background-color: #606c38;
+  width: 100%;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.actions button,
+.actions select {
+  padding: 0.8rem 2.4rem;
+  font-size: 1.4rem;
+  margin: 0 0.8rem;
+}
+
+.stats {
+  background-color: #bc6c25;
+  color: white;
+  text-align: center;
+  padding: 3.2rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
