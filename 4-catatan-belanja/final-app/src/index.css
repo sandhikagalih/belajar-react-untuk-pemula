@@ -6,12 +6,12 @@
   box-sizing: border-box;
 }
 
-/* html {
+html {
   font-size: 62.5%;
-} */
+}
 
 body {
-  font-size: 1rem;
+  font-size: 2.4rem;
   font-family: 'Comfortaa', sans-serif;
   color: #283618;
   background-color: #fefae0;
@@ -38,7 +38,6 @@ h1 {
   background-color: #dda15e;
   padding: 2.8rem 0;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 0.8rem;
@@ -46,15 +45,7 @@ h1 {
 
 .add-form h3 {
   margin-right: 2rem;
-  font-size: 3rem;
-}
-
-.add-form div {
-  margin: 1rem 0;
-}
-
-.add-form div select {
-  margin-right: 1rem;
+  font-size: 2.4rem;
 }
 
 button,
@@ -65,7 +56,7 @@ input {
   border: none;
   border-radius: 3rem;
   padding: 1.2rem 3.2rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   cursor: pointer;
 }
 
@@ -78,8 +69,7 @@ button {
 .list {
   background-image: url(img/paper-bg.jpg);
   background-repeat: repeat-y;
-  background-size: 155%;
-  /* background-attachment: local; */
+  background-attachment: local;
   color: #fefae0;
   padding: 2.3rem 0 0;
   display: flex;
@@ -96,7 +86,6 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -1rem;
 }
 
 .list li {
@@ -105,15 +94,14 @@ button {
   font-weight: bold;
   display: flex;
   align-items: center;
-  /* gap: 2rem; */
-  margin-bottom: 3rem;
+  gap: 2rem;
+  margin-bottom: 3.6rem;
 }
 
 .list input[type='checkbox'] {
   height: 3rem;
   width: 3rem;
   accent-color: #283618;
-  margin-right: 1.3rem;
 }
 
 .list li button {
@@ -126,7 +114,6 @@ button {
   width: 3rem;
   height: 3rem;
   background-color: red;
-  margin-left: 1rem;
 }
 
 .actions {
@@ -150,16 +137,4 @@ button {
   padding: 3.2rem 0;
   font-size: 2rem;
   font-weight: bold;
-}
-
-/* tablet */
-@media (max-width: 768px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (max-width: 576px) {
-  html {
-    font-size: 40%;
-  }
 }

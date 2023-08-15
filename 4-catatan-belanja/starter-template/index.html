@@ -13,21 +13,23 @@
     <h1>Catatan Belanjaku 📝</h1>
     <form class="add-form">
       <h3>Hari ini belanja apa kita?</h3>
-      <select>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-      </select>
-      <input type="text" placeholder="nama barang..." />
+      <div>
+        <select>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <input type="text" placeholder="nama barang..." />
+      </div>
       <button>Tambah</button>
     </form>
     <div class="list">
       <ul>
         <li>
-          <input type="checkbox" />
-          <span>1 Kopi</span>
+          <input type="checkbox" checked="true" />
+          <span style="text-decoration: line-through;">1 Kopi</span>
           <button>&times;</button>
         </li>
         <li>
