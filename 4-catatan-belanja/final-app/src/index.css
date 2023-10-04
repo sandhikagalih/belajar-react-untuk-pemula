@@ -67,7 +67,7 @@ button {
 }
 
 .list {
-  background-image: url(img/paper-bg.jpg);
+  background-image: url(/img/paper-bg.jpg);
   background-repeat: repeat-y;
   background-attachment: local;
   color: #fefae0;
